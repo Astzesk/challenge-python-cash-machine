@@ -156,7 +156,7 @@ Remember, it's essential to remove or reuse the current code of the application.
 ## Screenshots
 | Phase 1    |
 |    :----:   |
-| [![picture-1](https://github.com/Astzesk/storage-project/blob/master/projects/challenge-python-cash-machine/image/image-1.png "image-1")](#screenshots) | 
+| [![screenshots-1](https://imgur.com/SR3ktOK.png "image-1")](#screenshots) |
 
 ## Technologies
 * Programming Languages: `python`.
