@@ -1,8 +1,8 @@
 import os
 
-import data.bank as Extend
+import app.resources.init as Extend
 
-class Program(Extend.Bank):
+class Program(Extend.Init):
 
     def __init__(self, lPrice = 0, lPayment = 0):
         super().__init_subclass__(lPrice, lPayment)
@@ -13,7 +13,7 @@ class Program(Extend.Bank):
         super().__del__()
 
     def confirm(self):
-        step = input(self.message.reportDict['request'][2])
+        step = input(self.printReport('request', 2))
         
         clear = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
 
@@ -30,9 +30,9 @@ class Program(Extend.Bank):
         while self.state == 1:
 
             try:
-                price = input(self.message.reportDict['request'][0])
-                payment = input(self.message.reportDict['request'][1])
-
+                price = input(self.printReport('request', 0))
+                payment = input(self.printReport('request', 1))
+                
                 Program(
                     float(price), 
                     float(payment)
@@ -45,8 +45,8 @@ class Program(Extend.Bank):
             finally:
                 self.confirm()
 
-def main():
+def window():
     app = Program()
     app.run()
 
-main()
+window()
