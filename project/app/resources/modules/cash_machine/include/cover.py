@@ -1,6 +1,6 @@
 import sys
 
-import data.message as message
+from ..storage.message import *
 
 class Cover():
 
@@ -10,8 +10,8 @@ class Cover():
         lReport = 'null',
         lIndex = 0
     ):
-        cls.tag = message.tagDict[lTag]
-        cls.report = message.reportDict[lReport][lIndex]
+        cls.tag = tagDict[lTag]
+        cls.report = reportDict[lReport][lIndex]
         cls.content = cls.tag + cls.report
 
     def __del__(self) -> None:
@@ -21,12 +21,15 @@ class Cover():
         print(self.content)
 
     def print(self, tag, report, index):
-        self.tag = message.tagDict[tag]
-        self.report = message.reportDict[report][index]
+        self.tag = tagDict[tag]
+        self.report = reportDict[report][index]
         self.content = self.tag + self.report
 
         print(self.content)
 
+    def printReport(self, report, index):
+        return reportDict[report][index]
+
     def error(self):
-        print(message.reportDict['error'][0], sys.exc_info()[0])
+        print(reportDict['error'][0], sys.exc_info()[0:])
 

@@ -22,10 +22,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="data\bank.py" />
-    <Compile Include="data\cover.py" />
-    <Compile Include="data\invoice.py" />
-    <Compile Include="data\message.py" />
+    <Compile Include="app\resources\init.py" />
+    <Compile Include="app\resources\modules\cash_machine\include\bank.py" />
+    <Compile Include="app\resources\modules\cash_machine\include\cover.py" />
+    <Compile Include="app\resources\modules\cash_machine\include\invoice.py" />
+    <Compile Include="app\resources\modules\cash_machine\storage\message.py" />
     <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
@@ -33,7 +34,14 @@
     <InterpreterReference Include="Global|PythonCore|3.9-32" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="data\" />
+    <Folder Include="app\" />
+    <Folder Include="app\assets\" />
+    <Folder Include="app\assets\screenshots\" />
+    <Folder Include="app\resources\" />
+    <Folder Include="app\resources\modules\" />
+    <Folder Include="app\resources\modules\cash_machine\" />
+    <Folder Include="app\resources\modules\cash_machine\include\" />
+    <Folder Include="app\resources\modules\cash_machine\storage\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

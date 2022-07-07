@@ -1,8 +1,8 @@
-import data.invoice as Extend
+from .invoice import *
 
-class Bank(Extend.Invoice):
+class Bank(Invoice):
 
-    def __init__(self, lPrice = 0, lPayment = 0):
+    def __init_subclass__(cls, lPrice = 0, lPayment = 0):
         super().__init_subclass__(lPrice, lPayment)
 
     def __del__(self) -> None:
