@@ -1,10 +1,8 @@
-from sympy import *
+from sympy import simplify 
 
-import data.cover as Extend
+from .cover import *
 
-class Invoice(Extend.Cover):
-
-    message = Extend.message
+class Invoice(Cover):
 
     money = [
         [500, 200, 100],
@@ -26,7 +24,7 @@ class Invoice(Extend.Cover):
         cls.count = 0
 
     def __del__(self) -> None:
-        pass
+        super().__del__()
 
     def pay(self):
         reList = self.swap()
