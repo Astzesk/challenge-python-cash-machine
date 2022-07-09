@@ -97,18 +97,18 @@ This section contains examples of the descriptions of functionalities and consti
 
 #### Example 1 - Main Description
 
-The current code has two variables, and every variable contains an input method with a message inside it. The first variable is the `price` used for the first parameter of the `Bank` constructor. The `payment` variable only accepts **payment values permitted** located in the `Invoice` class. The `Bank` constructor gets the arguments before running the `pay` method. The `pay` method is essential to execute all functionalities to get the change.
+The current code of the constructor has two variables, and every variable contains an input method with a message. The first variable is the `price` used for the first parameter of the `Program` constructor. The `payment` variable only accepts the **payment values permitted** located in the `Invoice` class. The `Program` constructor gets the arguments before running the `pay` method. The `pay` method is essential to execute all functionalities to obtain the getting change and the number of coins and banknotes.
 
 **main.py file**
 ```python
 
 try:
-    price = input(self.message.reportDict['request'][0]) 
-    payment = input(self.message.reportDict['request'][1])
-
+    price = float(input(self.printReport('request', 0)))
+    payment = float(input(self.printReport('request', 1)))
+    
     Program(
-        float(price), 
-        float(payment)
+        price,
+        payment
     ).pay()
 
 except ValueError:
@@ -116,11 +116,11 @@ except ValueError:
 except:
     self.error()
 finally:
-    self.confirm() 
+    self.confirm()
 
 ```
 
-The `money` variable defines **payment values permitted** for the `payment` variable or even the constructor of the `Bank` and `Invoice` classes. It is possible to modify the restriction.
+The `money` variable specifies the **payment values permitted** for the `payment parameter of the constructors such as `Program`; `Bank`; `Init` and `Invoice` class. It is possible to modify the restriction.
 
 **invoice.py file**
 ```python
