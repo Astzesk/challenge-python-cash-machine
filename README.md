@@ -120,7 +120,7 @@ finally:
 
 ```
 
-The `money` variable specifies the **payment values permitted** for the `payment parameter of the constructors such as `Program`; `Bank`; `Init` and `Invoice` class. It is possible to modify the restriction.
+The `money` variable specifies the **payment values permitted** for the payment parameter of the constructors such as `Program`; `Bank`; `Init` and `Invoice` class. It is possible to modify the restriction.
 
 **invoice.py file**
 ```python
