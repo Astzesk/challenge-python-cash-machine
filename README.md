@@ -58,7 +58,7 @@ If you want to modify the project code, see the requirements.
 
 - Operation System: Windows, Linux, and macOS or other OS compatible.
 - Python Version: Python 3.9.7 or up.
-- IDE: Visual Studio, and PyDev or other IDE compatible.
+- IDE: Visual Studio, and PyDev or other [IDE](https://www.freecodecamp.org/news/what-is-an-ide-in-programming-an-ide-definition-for-developers) compatible.
 
 ### Installation
 
