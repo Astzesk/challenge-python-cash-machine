@@ -23,17 +23,18 @@ All essential information about the project, you can be found here.
 | Project    | Community |
 |    :----   |    :----   |
 | [Getting Started](#getting-started) | [Code of Conduct](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CODE_OF_CONDUCT.md) |
-| [Screenshots](#screenshots) | [Contributing](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CONTRIBUTING.md)|
-| [Technologies](#technologies) | [License](https://github.com/astzesk/challenge-python-cash-machine/blob/master/LICENSE) |
-| [Features](#features) |[Security Policy](https://github.com/astzesk/challenge-python-cash-machine/blob/master/SECURITY.md) |
-| [Author](#author) |[Discussions](https://github.com/astzesk/challenge-python-cash-machine/discussions) |
+| [Code Sample](#code-sample) | [Security Policy](https://github.com/astzesk/challenge-python-cash-machine/blob/master/SECURITY.md) |
+| [Screenshots](#screenshots) | [Contributing](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CONTRIBUTING.md) |
+| [Technologies](#technologies) | [Discussions](https://github.com/astzesk/challenge-python-cash-machine/discussions) |
+| [Features](#features) | [License](https://github.com/astzesk/challenge-python-cash-machine/blob/master/LICENSE) |
+| [Author](#author) |  |
 
 ### Table of Phases
 All essential information about the phases project, you can be found here.
 
-| Phase    | Description | Branch |
-|   :----:   |    :----   |    :----   |
-|     1     |     [Phase I - Script Development](https://github.com/Astzesk/challenge-python-cash-machine/discussions/12)     |     [master-phase-one](https://github.com/Astzesk/challenge-python-cash-machine/tree/master-phase-one)     |
+| Phase    | Description | Code Sample | Branch |
+|   :----:   |    :----   |    :----   |    :----   |
+|     1     | [Phase I - Script Development](https://github.com/Astzesk/challenge-python-cash-machine/discussions/12) | [Phase I - Script Development](#phase-i---script-development) | [master-phase-one](https://github.com/Astzesk/challenge-python-cash-machine/tree/master-phase-one) |
 
 ## Getting Started
 
@@ -98,9 +99,13 @@ cd challenge-python-cash-machine\project
 py main.py
 ```
 
-### Code Sample
+## Code Sample
 
 This section contains examples of the descriptions of functionalities and constitutions of the application code.
+
+### **Phase I - Script Development**
+
+This subsection contains code examples and descriptions and many more about phase one.
 
 #### Example 1 - Main Description
 
