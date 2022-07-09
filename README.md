@@ -225,6 +225,60 @@ Message: Payment has been unsuccessfully!
 Description: It should insert the payment and price value higher than zero before paying.
 
 ```
+
+#### Example 3 - Cover Class
+
+The `Cover` class is responsible for storing and printing some program messages contained in the `message.py` file. It's possible to add, remove and edit the data in the tagDict and reportDict variables and reuse it in other classes. But, it's essential knowing your usability before using it. Have several code examples about your utilization in the application. See it.
+
+**main.py file**
+
+**3.1.** Show the message with **msg** `tagDict`, **program** `reportDict` and `index` of **1**.
+
+```python
+
+app = Extend
+
+app.Cover("msg", "program", 1).show()
+
+```
+
+The final result when compiled the code:
+
+```txt
+
+Message: Try another option!
+
+```
+
+**3.2.** Show the message with **null** `tagDict`, **request** `reportDict` and `index` of **2**.
+
+```python
+
+app = Extend
+
+app.Cover("null", "request", 2).show()
+
+```
+
+The final result when compiled the code:
+
+```txt
+
+Do you want close program (Yes or No)?
+
+```
+
+**3.3.** Show the message with **null** `tagDict`, **null** `reportDict` and `index` of **0** provided by the default arguments of the constructor.
+
+```python
+
+app = Extend
+
+app.Cover().show()
+
+```
+The final result when compiling the code is the empty string.
+
 It's essential to remove or reuse the current code.
 
 ## Screenshots
