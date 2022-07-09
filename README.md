@@ -28,6 +28,13 @@ All essential information about the project, you can be found here.
 | [Features](#features) |[Security Policy](https://github.com/astzesk/challenge-python-cash-machine/blob/master/SECURITY.md) |
 | [Author](#author) |[Discussions](https://github.com/astzesk/challenge-python-cash-machine/discussions) |
 
+### Table of Phases
+All essential information about the phases project, you can be found here.
+
+| Phase    | Description | Branch |
+|   :----:   |    :----   |    :----   |
+|     1     |     [Phase I - Script Development](https://github.com/Astzesk/challenge-python-cash-machine/discussions/12)     |     [master-phase-one](https://github.com/Astzesk/challenge-python-cash-machine/tree/master-phase-one)     |
+
 ## Getting Started
 
 ### Requirements
