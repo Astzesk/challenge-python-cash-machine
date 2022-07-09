@@ -138,20 +138,91 @@ For the least, if all top statements don't match the code, the program will retu
 
 #### Example 2 - Default Constructor
 
-The `lPrice` and the `lPayment` are parameters of the `Bank` and `Invoice` constructors. These two constructors have default parameters that mustn't require arguments for the parameters. The code represented can be inserted in the `run` method on the `Program` class inside the while loop. When running the code in the compiler will get the final result.
+The `lPrice` and the `lPayment` are parameters of the `Program`; `Init`; `Bank` and `Invoice` constructor. These constructors have default parameters that mustn't require arguments for the parameters. The code represented can be inserted in the `run` method on the `Program` class inside the while loop.
 
 **main.py file**
+
+**2.1.** Show getting change and the number of coins and banknotes provided by the price and payment variables from the input method.
+
+```python
+
+#Set price value to 7.25
+price = float(input(self.printReport('request', 0)))
+
+#Set payment value to 20
+payment = float(input(self.printReport('request', 1)))
+
+app = Extend
+
+app.Init(price, payment).pay()
+
+```
+
+The final result when compiled the code:
+
+```txt
+
+Insert a price value: 7.25
+Insert a payment value: 20
+
+Get change : 12.75
+
+Coin(s) and banknote(s) received:
+
+1 Banknote(s) of 10 euro(s).
+1 Coin(s) of 2 euro(s).
+1 Coin(s) of 0.50 cent(s).
+1 Coin(s) of 0.20 cent(s).
+1 Coin(s) of 0.05 cent(s).
+
+Message: Payment has been successfully!
+
+```
+
+**2.2.** Show the getting change and the number of coins and banknotes provided by the non-default arguments of the constructor without the usability of the price and payment variable.
+
 ```python
 
 app = Extend
 
-Program(
-    float(price), 
-    float(payment)
-).pay()
+app.Bank(5, 10).pay()
 
 ```
-Remember, it's essential to remove or reuse the current code of the application.
+
+The final result when compiled the code:
+
+```txt
+
+Get change : 5.00
+
+Coin(s) and banknote(s) received:
+
+1 Banknote(s) of 5 euro(s).
+
+Message: Payment has been successfully!
+
+```
+
+**2.3.** Show the getting change and the number of coins and banknotes provided by the default arguments of the constructor without the usability of the price and payment variable.
+
+```python
+
+app = Extend
+
+app.Invoice().pay()
+
+```
+
+The final result when compiled the code:
+
+```txt
+
+Message: Payment has been unsuccessfully!
+
+Description: It should insert the payment and price value higher than zero before paying.
+
+```
+It's essential to remove or reuse the current code.
 
 ## Screenshots
 | Phase 1    |
