@@ -97,7 +97,7 @@ This section contains examples of the descriptions of functionalities and consti
 
 #### Example 1 - Main Description
 
-The current code of the constructor has two variables, and every variable contains an input method with a message. The first variable is the `price` used for the first parameter of the `Program` constructor. The `payment` variable only accepts the **payment values permitted** located in the `Invoice` class if the `payment` variable has been into the second parameter of the constructor. The `Program` constructor gets the arguments before running the `pay` method. The `pay` method is essential to execute all functionalities to obtain the getting change and the number of coins and banknotes.
+The current code of the constructor has two variables, and every variable contains an input method with a message. The first variable is the `price` used for the `lPrice` parameter of the `Program` constructor. The `payment` variable only accepts the **payment values permitted** located in the `Invoice` class if the `payment` variable has been into the `lPayment` parameter of the constructor. The `Program` constructor gets the arguments before running the `pay` method. The `pay` method is essential to execute all functionalities to obtain the getting change and the number of coins and banknotes.
 
 **main.py file**
 ```python
@@ -120,7 +120,7 @@ finally:
 
 ```
 
-The `money` variable specifies the **payment values permitted** for the payment parameter of the constructors such as `Program`; `Init`; `Bank` and `Invoice` class. It is possible to modify the restriction.
+The `money` variable specifies the **payment values permitted** for the `lPayment` parameter of the constructors such as `Program`; `Init`; `Bank` and `Invoice` class. It is possible to modify the restriction.
 
 **invoice.py file**
 ```python
