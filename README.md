@@ -41,7 +41,7 @@ If you want to run the program, see the requirements.
 ##### Recommended Requirements
 
 - Operation System: Windows, Linux, and macOS or other OS compatible.
-- Python Version: Python 3.9 or up.
+- Python Version: Python 3.9.7 or up.
 
 #### Integrated Development Environment
 
@@ -50,7 +50,7 @@ If you want to modify the project code, see the requirements.
 ##### Recommended Requirements
 
 - Operation System: Windows, Linux, and macOS or other OS compatible.
-- Python Version: Python 3.9 or up.
+- Python Version: Python 3.9.7 or up.
 - IDE: Visual Studio, and PyDev or other IDE compatible.
 
 ### Installation
