@@ -106,7 +106,7 @@ This section contains examples of the descriptions of functionalities and consti
 
 The current code of the constructor has two variables, and every variable contains an input method with a message. The first variable is the `price` used for the `lPrice` parameter of the `Program` constructor. The `payment` variable only accepts the **payment values permitted** located in the `Invoice` class if the `payment` arguments has been into the `lPayment` parameter of the constructor. The `Program` constructor gets the arguments before running the `pay` method. The `pay` method is essential to execute all functionalities to obtain the getting change and the number of coins and banknotes.
 
-**main.py file**
+Name File: [**main.py**](https://github.com/Astzesk/challenge-python-cash-machine/blob/master-phase-one/project/main.py)
 
 ```python
 
@@ -131,7 +131,7 @@ finally:
 
 The `money` variable specifies the **payment values permitted** for the `lPayment` parameter of the constructors such as `Program`; `Init`; `Bank` and `Invoice` class. It is possible to modify the restriction.
 
-**invoice.py file**
+Name File: [**invoice.py**](https://github.com/Astzesk/challenge-python-cash-machine/blob/master-phase-one/project/app/resources/modules/cash_machine/include/invoice.py)
 
 ```python
 
@@ -150,7 +150,7 @@ For the least, if all top statements don't match the code, the program will retu
 
 The `lPrice` and the `lPayment` are parameters of the `Program`; `Init`; `Bank` and `Invoice` constructor. These constructors have default parameters that mustn't require arguments for the parameters. The code represented can be inserted in the `run` method on the `Program` class inside the while loop.
 
-**main.py file**
+Name File: [**main.py**](https://github.com/Astzesk/challenge-python-cash-machine/blob/master-phase-one/project/main.py)
 
 **2.1.** Show getting change and the number of coins and banknotes provided by the price and payment variables from the input method.
 
@@ -237,7 +237,7 @@ Description: It should insert the payment and price value higher than zero befor
 
 The `Cover` class is responsible for storing and printing some program messages contained in the `message.py` file. It's possible to add, remove and edit the data in the tagDict and reportDict variables and reuse it in other classes. But, it's essential knowing your usability before using it. Have several code examples about your utilization in the application. See it.
 
-**main.py file**
+Name File: [**main.py**](https://github.com/Astzesk/challenge-python-cash-machine/blob/master-phase-one/project/main.py)
 
 **3.1.** Show the message with **msg** `tagDict`, **program** `reportDict` and `index` of **1**.
 
