@@ -5,7 +5,7 @@
 [![issues-pr](https://img.shields.io/github/issues-pr/astzesk/challenge-python-cash-machine)](https://github.com/astzesk/challenge-python-cash-machine/pulls)
 [![milestones](https://img.shields.io/github/milestones/open/astzesk/challenge-python-cash-machine)](https://github.com/astzesk/challenge-python-cash-machine/milestones)
 
-The cash machine simulation project consists of a simulation of the cash machine using the object-oriented python programming language that permits the calculation of the getting change and the number of banknotes and coins in euro. The program contains restrictions on the values of banknotes and coins on payment.
+The cash machine simulation project consists of a simulation of the cash machine using the object-oriented python programming language that permits the operation of getting change and the number of banknotes and coins in euro. The program contains restrictions on the values of banknotes and coins on payment.
 
 **Payment values permitted**
 
