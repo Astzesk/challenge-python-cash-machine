@@ -4,13 +4,24 @@ from .cover import *
 
 class Invoice(Cover):
 
-    money = [
+    moneyPermited  = [
         [500, 200, 100],
         [50, 20, 10],
         [5, 2, 1],
         [0.50, 0.20, 0.10],
         [0.05, 0.02, 0.01]
     ]
+
+    def __init__(self, lPrice = 0, lPayment = 0):
+        self.price = lPrice
+        self.payment = lPayment
+        self.priceBool = simplify(self.price).is_negative
+        self.paymentBool = simplify(self.payment).is_negative
+        self.budget = lPayment - lPrice
+        self.item = f'{self.budget:.2f}'.split('.')
+        self.index = 0
+        self.numeral = list()
+        self.count = 0
 
     def __init_subclass__(cls, lPrice = 0, lPayment = 0):
         cls.price = lPrice
@@ -26,10 +37,13 @@ class Invoice(Cover):
     def __del__(self) -> None:
         super().__del__()
 
+    def __del__(cls) -> None:
+        super().__del__()
+
     def pay(self):
         reList = self.swap()
 
-        if self.payment >= self.price and self.payment in reList[0:15]:
+        if self.payment >= self.price and self.price > 0 and self.payment in reList[0:15]:
 
             if self.paymentBool == False and self.priceBool == False:
                 self.operator()
@@ -39,6 +53,15 @@ class Invoice(Cover):
                 self.print('msg', 'invoice', 1)
         else:
             self.print('msg', 'invoice', 1)
+
+            if self.payment <= 0 or self.price <= 0:
+                self.print('des', 'invoice', 3);
+            elif self.payment <= self.price:
+                self.print('des', 'invoice', 4);
+            elif self.payment not in reList[0:15]:
+                self.print('des', 'invoice', 5);
+            else:
+                pass
   
     def show(self):
         print("\nGet change :", f'{self.budget:.2f}')
@@ -58,17 +81,17 @@ class Invoice(Cover):
                 if self.numeral[x][y] != 0:
 
                     if self.count >= 8 and self.count <= 9:
-                        print(self.numeral[x][y], "Coin(s) of "+str(self.money[x][y])+" euro(s).")
+                        print(self.numeral[x][y], "Coin(s) of "+str(self.moneyPermited[x][y])+" euro(s).")
                     elif self.count > 9:
-                        print(self.numeral[x][y], "Coin(s) of "+str(f'{self.money[x][y]:.2f}')+" cent(s).")
+                        print(self.numeral[x][y], "Coin(s) of "+str(f'{self.moneyPermited[x][y]:.2f}')+" cent(s).")
                     else:
-                        print(self.numeral[x][y], "Banknote(s) of "+str(self.money[x][y])+" euro(s).")
+                        print(self.numeral[x][y], "Banknote(s) of "+str(self.moneyPermited[x][y])+" euro(s).")
                 else:
                     pass
 
     def check(self):
-        if len(self.money) != len(self.numeral):
-            b = len(self.money) - len(self.numeral)
+        if len(self.moneyPermited) != len(self.numeral):
+            b = len(self.moneyPermited) - len(self.numeral)
 
             for x in range(b):
                 self.numeral.insert(0, [0, 0, 0])
@@ -108,9 +131,9 @@ class Invoice(Cover):
     def swap(self):
         rewrite = list()
 
-        for x in range(len(self.money)):
+        for x in range(len(self.moneyPermited)):
 
-            for y in range(len(self.money[x])):
-                rewrite.append(self.money[x][y])
+            for y in range(len(self.moneyPermited[x])):
+                rewrite.append(self.moneyPermited[x][y])
 
         return rewrite
