@@ -30,16 +30,17 @@ class Program(Extend.Init):
         while self.state == 1:
 
             try:
-                price = input(self.printReport('request', 0))
-                payment = input(self.printReport('request', 1))
+                price = float(input(self.printReport('request', 0)))
+                payment = float(input(self.printReport('request', 1)))
                 
                 Program(
-                    float(price), 
-                    float(payment)
+                    price,
+                    payment
                 ).pay()
 
             except ValueError:
-                self.print('msg', 'error', 1)
+                self.print('msg', 'invoice', 1)
+                self.print('des', 'invoice', 6)
             except:
                 self.error()
             finally:

@@ -4,6 +4,16 @@ from ..storage.message import *
 
 class Cover():
 
+    def __init__(
+        self,
+        lTag = 'null',
+        lReport = 'null',
+        lIndex = 0
+    ):
+        self.tag = tagDict[lTag]
+        self.report = reportDict[lReport][lIndex]
+        self.content = self.tag + self.report
+
     def __init_subclass__(
         cls,
         lTag = 'null',
@@ -17,7 +27,10 @@ class Cover():
     def __del__(self) -> None:
         pass
 
-    def print(self):
+    def __del__(cls) -> None:
+        pass
+
+    def show(self):
         print(self.content)
 
     def print(self, tag, report, index):
