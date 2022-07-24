@@ -4,7 +4,7 @@ from .cover import *
 
 class Invoice(Cover):
 
-    moneyPermited  = [
+    moneyPermitted  = [
         [500, 200, 100],
         [50, 20, 10],
         [5, 2, 1],
@@ -81,17 +81,17 @@ class Invoice(Cover):
                 if self.numeral[x][y] != 0:
 
                     if self.count >= 8 and self.count <= 9:
-                        print(self.numeral[x][y], "Coin(s) of "+str(self.moneyPermited[x][y])+" euro(s).")
+                        print(self.numeral[x][y], "Coin(s) of "+str(self.moneyPermitted[x][y])+" euro(s).")
                     elif self.count > 9:
-                        print(self.numeral[x][y], "Coin(s) of "+str(f'{self.moneyPermited[x][y]:.2f}')+" cent(s).")
+                        print(self.numeral[x][y], "Coin(s) of "+str(f'{self.moneyPermitted[x][y]:.2f}')+" cent(s).")
                     else:
-                        print(self.numeral[x][y], "Banknote(s) of "+str(self.moneyPermited[x][y])+" euro(s).")
+                        print(self.numeral[x][y], "Banknote(s) of "+str(self.moneyPermitted[x][y])+" euro(s).")
                 else:
                     pass
 
     def check(self):
-        if len(self.moneyPermited) != len(self.numeral):
-            b = len(self.moneyPermited) - len(self.numeral)
+        if len(self.moneyPermitted) != len(self.numeral):
+            b = len(self.moneyPermitted) - len(self.numeral)
 
             for x in range(b):
                 self.numeral.insert(0, [0, 0, 0])
@@ -131,9 +131,9 @@ class Invoice(Cover):
     def swap(self):
         rewrite = list()
 
-        for x in range(len(self.moneyPermited)):
+        for x in range(len(self.moneyPermitted)):
 
-            for y in range(len(self.moneyPermited[x])):
-                rewrite.append(self.moneyPermited[x][y])
+            for y in range(len(self.moneyPermitted[x])):
+                rewrite.append(self.moneyPermitted[x][y])
 
         return rewrite
