@@ -18,7 +18,7 @@ Cents Coins: `0.50, 0.20, 0.10, 0.05 0.02 and 0.01.`
 ## General Information
 
 ### Table of Content
-All essential information about the project, you can be found here.
+All essential information about the project, see the table.
 
 | Project    | Community |
 |    :----   |    :----   |
@@ -30,7 +30,7 @@ All essential information about the project, you can be found here.
 | [Author](#author) |  |
 
 ### Table of Phases
-All essential information about the phases project, you can be found here.
+All essential information about the phases project, see the table.
 
 | Phase    | Description | Code Sample | Branch |
 |   :----:   |    :----   |    :----   |    :----   |
