@@ -22,12 +22,12 @@ All essential information about the project, see the table.
 
 | Project    | Community |
 |    :----   |    :----   |
-| [Getting Started](#getting-started) | [Code of Conduct](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CODE_OF_CONDUCT.md) |
-| [Code Sample](#code-sample) | [Security Policy](https://github.com/astzesk/challenge-python-cash-machine/blob/master/SECURITY.md) |
-| [Screenshots](#screenshots) | [Contributing](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CONTRIBUTING.md) |
-| [Technologies](#technologies) | [Discussions](https://github.com/astzesk/challenge-python-cash-machine/discussions) |
-| [Features](#features) | [License](https://github.com/astzesk/challenge-python-cash-machine/blob/master/LICENSE) |
-| [Author](#author) |  |
+| [Getting Started](#getting-started) | [Readme](https://github.com/astzesk/challenge-python-cash-machine/blob/master/README.md) |
+| [Code Sample](#code-sample) | [Code of Conduct](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CODE_OF_CONDUCT.md) |
+| [Screenshots](#screenshots) | [Security Policy](https://github.com/astzesk/challenge-python-cash-machine/blob/master/SECURITY.md)|
+| [Technologies](#technologies) | [Contributing](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CONTRIBUTING.md) |
+| [Features](#features) | [Discussions](https://github.com/astzesk/challenge-python-cash-machine/discussions) |
+| [Author](#author) | [License](https://github.com/astzesk/challenge-python-cash-machine/blob/master/LICENSE) |
 
 ### Table of Phases
 All essential information about the phases project, see the table.
