@@ -32,7 +32,7 @@ All essential information about the project, see the table.
 ### Table of Phases
 All essential information about the phases project, see the table.
 
-| Phase    | Description | Code Sample | Branch |
+| Phase    | Discussions | Code Sample | Branch |
 |   :----:   |    :----   |    :----   |    :----   |
 |     1     | [Phase I - Script Development](https://github.com/Astzesk/challenge-python-cash-machine/discussions/12) | [Phase I - Script Development](#phase-i---script-development) | [master-phase-one](https://github.com/Astzesk/challenge-python-cash-machine/tree/master-phase-one) |
 
