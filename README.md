@@ -101,7 +101,7 @@ py main.py
 
 ## Code Sample
 
-This section contains examples of the descriptions of functionalities and constitutions of the application code.
+This section contains descriptions and constitutions of the application code.
 
 ### **Phase I - Script Development**
 
