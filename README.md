@@ -17,7 +17,7 @@ Cents Coins: `0.50, 0.20, 0.10, 0.05 0.02 and 0.01.`
 
 ## General Information
 
-### Table of Content
+### Content
 All essential information about the project, see the table.
 
 | Project    | Community |
@@ -29,7 +29,7 @@ All essential information about the project, see the table.
 | [Features](#features) | [Discussions](https://github.com/astzesk/challenge-python-cash-machine/discussions) |
 | [Author](#author) | [License](https://github.com/astzesk/challenge-python-cash-machine/blob/master/LICENSE) |
 
-### Table of Phases
+### Phases
 All essential information about the phases project, see the table.
 
 | Phase    | Code Sample | Discussions | Branch |
