@@ -18,7 +18,7 @@ Cents Coins: `0.50, 0.20, 0.10, 0.05 0.02 and 0.01.`
 ## General Information
 
 ### Resources
-All essential information about the project, see the table.
+All essential information about the project, read the table.
 
 | Project    | Community |
 |    :----   |    :----   |
@@ -30,7 +30,7 @@ All essential information about the project, see the table.
 | [Author](#author) | [License](https://github.com/astzesk/challenge-python-cash-machine/blob/master/LICENSE) |
 
 ### Phases
-All essential information about the phases project, see the table.
+All essential information about the phases project, read the table.
 
 | Phase    | Code Sample | Discussions | Branch |
 |   :----:   |    :----   |    :----   |    :----   |
@@ -44,21 +44,21 @@ It is essential to know the requirements of the program before being used.
 
 #### Program Execution
 
-If you want to run the program, see the requirements.
+If you want to run the program, read the requirements.
 
 ##### Recommended Requirements
 
 - Operation System: Windows, Linux, and macOS or other OS compatible.
-- Python Version: Python 3.9.7 or up.
+- Python Version: Python 3.9.7.
 
 #### Integrated Development Environment
 
-If you want to modify the project code, see the requirements.
+If you want to modify the project code, read the requirements.
 
 ##### Recommended Requirements
 
 - Operation System: Windows, Linux, and macOS or other OS compatible.
-- Python Version: Python 3.9.7 or up.
+- Python Version: Python 3.9.7.
 - IDE: Visual Studio, and PyDev or other [IDE](https://www.freecodecamp.org/news/what-is-an-ide-in-programming-an-ide-definition-for-developers) compatible.
 
 ### Installation
