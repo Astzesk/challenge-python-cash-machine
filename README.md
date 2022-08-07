@@ -103,7 +103,7 @@ py main.py
 
 ### **Phase I - Script Development**
 
-This subsection contains code examples and descriptions, many more about phase one.
+This subsection contains code examples, descriptions, and many more about phase one.
 
 #### Example 1 - Main Description
 
