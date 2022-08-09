@@ -17,24 +17,24 @@ Cents Coins: `0.50, 0.20, 0.10, 0.05 0.02 and 0.01.`
 
 ## General Information
 
-### Table of Content
-All essential information about the project, you can be found here.
+### Resources
+All essential information about the project, read the table.
 
 | Project    | Community |
 |    :----   |    :----   |
-| [Getting Started](#getting-started) | [Code of Conduct](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CODE_OF_CONDUCT.md) |
-| [Code Sample](#code-sample) | [Security Policy](https://github.com/astzesk/challenge-python-cash-machine/blob/master/SECURITY.md) |
-| [Screenshots](#screenshots) | [Contributing](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CONTRIBUTING.md) |
-| [Technologies](#technologies) | [Discussions](https://github.com/astzesk/challenge-python-cash-machine/discussions) |
-| [Features](#features) | [License](https://github.com/astzesk/challenge-python-cash-machine/blob/master/LICENSE) |
-| [Author](#author) |  |
+| [Getting Started](#getting-started) | [Readme](https://github.com/astzesk/challenge-python-cash-machine/blob/master/README.md) |
+| [Code Sample](#code-sample) | [Code of Conduct](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CODE_OF_CONDUCT.md) |
+| [Screenshots](#screenshots) | [Security Policy](https://github.com/astzesk/challenge-python-cash-machine/blob/master/SECURITY.md)|
+| [Technologies](#technologies) | [Contributing](https://github.com/astzesk/challenge-python-cash-machine/blob/master/CONTRIBUTING.md) |
+| [Features](#features) | [Discussions](https://github.com/astzesk/challenge-python-cash-machine/discussions) |
+| [Author](#author) | [License](https://github.com/astzesk/challenge-python-cash-machine/blob/master/LICENSE) |
 
-### Table of Phases
-All essential information about the phases project, you can be found here.
+### Phases
+All essential information about the phases project, read the table.
 
-| Phase    | Description | Code Sample | Branch |
+| Phase    | Code Sample | Discussions | Branch |
 |   :----:   |    :----   |    :----   |    :----   |
-|     1     | [Phase I - Script Development](https://github.com/Astzesk/challenge-python-cash-machine/discussions/12) | [Phase I - Script Development](#phase-i---script-development) | [master-phase-one](https://github.com/Astzesk/challenge-python-cash-machine/tree/master-phase-one) |
+|     1     | [Phase I - Script Development](#phase-i---script-development) | [Script Development](https://github.com/Astzesk/challenge-python-cash-machine/discussions/12) | [master-phase-one](https://github.com/Astzesk/challenge-python-cash-machine/tree/master-phase-one) |
 
 ## Getting Started
 
@@ -44,21 +44,21 @@ It is essential to know the requirements of the program before being used.
 
 #### Program Execution
 
-If you want to run the program, see the requirements.
+If you want to run the program, read the requirements.
 
 ##### Recommended Requirements
 
 - Operation System: Windows, Linux, and macOS or other OS compatible.
-- Python Version: Python 3.9.7 or up.
+- Python Version: Python 3.9.7.
 
 #### Integrated Development Environment
 
-If you want to modify the project code, see the requirements.
+If you want to modify the project code, read the requirements.
 
 ##### Recommended Requirements
 
 - Operation System: Windows, Linux, and macOS or other OS compatible.
-- Python Version: Python 3.9.7 or up.
+- Python Version: Python 3.9.7.
 - IDE: Visual Studio, and PyDev or other [IDE](https://www.freecodecamp.org/news/what-is-an-ide-in-programming-an-ide-definition-for-developers) compatible.
 
 ### Installation
@@ -101,11 +101,9 @@ py main.py
 
 ## Code Sample
 
-This section contains examples of the descriptions of functionalities and constitutions of the application code.
-
 ### **Phase I - Script Development**
 
-This subsection contains code examples and descriptions and many more about phase one.
+This subsection contains code examples, descriptions, and many more about phase one.
 
 #### Example 1 - Main Description
 
@@ -140,7 +138,7 @@ Name File: [**invoice.py**](https://github.com/Astzesk/challenge-python-cash-mac
 
 ```python
 
-moneyPermited = [
+moneyPermitted = [
     [500, 200, 100],
     [50, 20, 10],
     [5, 2, 1],
